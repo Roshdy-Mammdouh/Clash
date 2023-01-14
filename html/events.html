@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA_Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Our Events To Our Friends </title>
+        <link rel="stylesheet" href="../css/all.min.css">
+        <link rel="stylesheet" href="../css//events.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        
+    </head>
+   <body>
+    <div class="header" id="header">
+        <div class="container">
+            <img class="logo" src="../image/slogo.png" alt="" id="#logo">
+            <ul class="main-nav">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="Register.html"> Register </a></li>
+                <li><a href="events.html"> Events </a></li>
+            </ul>
+            <div class="d-search">
+                <input type="text" name="search" placeholder="Search..">
+            </div>
+        </div>
+    </div>
+    <div class="slidshow" id="slidshow">
+        <div class="container">
+            <div class="box-slide">
+                <div class="mySlides ">
+                    <div class="text"><p id="text1"></p></div>
+                    <img src="../image/event/SlidShow3.png">
+                    <div class="button"><button id="b-event1">Show Event</button></div>
+                </div>
+                <div class="mySlides">
+                    <div class="text"><p id="text2"></p></div>
+                    <img src="../image/event/SlidShow2.png">
+                    <div class="button"><button id="b-event2">Show Event</button></div>
+                </div>
+                <div class="mySlides">
+                    <div class="text"><p id="text3"></p></div>
+                    <img src="../image/event/SlidShow1.png">
+                    <div class="button"><button id="b-event3">Show Event</button></div>
+                </div>
+                <div class="mySlides">
+                    <div class="text"><p id="text4"></p></div>
+                    <img src="../image/event/SlidShow4.png">
+                    <div class="button"><button id="b-event4">Show Event</button></div>
+                </div>
+            </div>            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)" style="right: 0;">❯</a>
+        </div>
+    </div>
+    
+    <script src="../js/events.js"></script>
+   </body>
+</html>
